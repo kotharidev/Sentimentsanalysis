@@ -1,0 +1,18 @@
+pip install pymysql
+pip install pyzipcode
+pip install Flask
+pip install pygal
+pip install SQLAlchemy
+pip install -U scikit-learn
+pip install pandas
+pip install numpy --upgrade
+
+set path=C:\Users\kotha\AppData\Local\Programs\Python\Python310
+
+cd C:\Project_Software\SociaMedia\src
+
+set FLASK_APP=Main.py
+
+python -m flask run
+
+http://127.0.0.1:5000/
